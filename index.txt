@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dezigner Zone - Affordable Clothing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- LEFT SIDE -->
+        <section class="left-panel">
+            <header class="top-bar">
+                <div class="logo-box">
+                    <span class="logo-text">DEZIGNER ZONE</span>
+                </div>
+                <nav class="nav-links">
+                    <a href="#">Men</a>
+                    <a href="#">Women</a>
+                    <a href="#">Kids</a>
+                </nav>
+            </header>
+
+            <main class="hero">
+                <h1>
+                    Affordable<br>
+                    Clothing<br>
+                    Affordable<br>
+                    Prices
+                </h1>
+
+                <p class="intro-text">
+                    Welcome to Dezigner Zone, where style meets affordability!
+                    Explore our wide range of trendy and stylish clothing and trainers
+                    for men, women and kids with a wide variety of different sizes in stock.
+                    We’ve got you covered with high quality clothing at unbeatable prices.
+                    Here at Dezigner Zone, we believe in bringing you the latest fashion
+                    without breaking your bank. Shop now and find the perfect fit for your wardrobe!
+                </p>
+
+                <button class="shop-btn">SHOP NOW</button>
+
+                <div class="socials">
+                    <a href="#">IG</a>
+                    <a href="#">X</a>
+                    <a href="#">▶</a>
+                </div>
+            </main>
+        </section>
+
+        <!-- RIGHT SIDE -->
+        <section class="right-panel">
+            <header class="right-top">
+                <div class="login-area">
+                    <span class="icon">👤</span>
+                    <a href="#">Login</a>
+                </div>
+                <div class="cart-area">
+                    <span class="icon">🛒</span>
+                </div>
+            </header>
+
+            <!-- Picture placeholders -->
+            <div class="image-placeholder large"></div>
+            <div class="image-placeholder circle"></div>
+        </section>
+    </div>
+</body>
+</html>

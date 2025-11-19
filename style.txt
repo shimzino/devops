@@ -1,0 +1,175 @@
+/* General layout */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #e4e4e4;
+}
+
+.page-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Left panel */
+
+.left-panel {
+    width: 50%;
+    background-color: #54D7E0; /* turquoise-like colour */
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.logo-box {
+    width: 120px;
+    height: 120px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Hero content */
+
+.hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 420px;
+    margin-bottom: 25px;
+}
+
+.shop-btn {
+    background-color: #FF0066; /* pink button */
+    color: #fff;
+    border: none;
+    padding: 12px 26px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+/* Social icons placeholder */
+
+.socials a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+/* Right panel */
+
+.right-panel {
+    width: 50%;
+    background-color: #e4e4e4;
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.login-area, .cart-area {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.login-area a {
+    margin-left: 6px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.icon {
+    font-size: 18px;
+}
+
+/* Image placeholders instead of real images */
+
+.image-placeholder {
+    background-color: #cfcfcf;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.image-placeholder.large {
+    height: 220px;
+}
+
+.image-placeholder.circle {
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+/* Basic responsiveness */
+
+@media (max-width: 900px) {
+    .page-wrapper {
+        flex-direction: column;
+    }
+
+    .left-panel, .right-panel {
+        width: 100%;
+    }
+
+    .image-placeholder.circle {
+        margin-bottom: 0;
+    }
+}
